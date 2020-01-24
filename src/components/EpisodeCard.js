@@ -1,5 +1,5 @@
-import React from "react";
-import { Card } from "semantic-ui-react";
+import React from 'react'
+import { Card } from 'semantic-ui-react'
 
 export default function EpisodeCard({ episode }) {
   return (
@@ -8,5 +8,5 @@ export default function EpisodeCard({ episode }) {
       <Card.Content description={episode.episode} />
       <Card.Content extra>Air Date: {episode.air_date}</Card.Content>
     </Card>
-  );
+  )
 }
