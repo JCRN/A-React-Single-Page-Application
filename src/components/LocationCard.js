@@ -1,9 +1,21 @@
 import React from 'react'
 import { Card, Label } from 'semantic-ui-react'
 
+const colors = [
+  'red',
+  'orange',
+  'yellow',
+  'green',
+  'teal',
+  'blue',
+  'violet',
+  'purple',
+  'pink'
+]
+
 export default function LocationCard({ location }) {
   return (
-    <Card>
+    <Card color={colors[Math.floor(Math.random() * 10)]}>
       <Card.Content>
         <Card.Header>{location.name}</Card.Header>
         <Card.Meta>
