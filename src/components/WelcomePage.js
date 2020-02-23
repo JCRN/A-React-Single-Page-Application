@@ -1,14 +1,16 @@
 import React from 'react'
+import ram from '../assets/rick-and-morty-cover.jpg'
 
 export default function WelcomePage() {
   return (
     <section className='welcome-page'>
       <header>
-        <h1>Welcome to the ultimate fan site!</h1>
+        <h3>A Colorful React Frontend for the Rick & Morty API</h3>
         <img
-          className='main-img ui centered medium circular image'
-          src='https://rickandmortyapi.com/api/character/avatar/1.jpeg'
-          alt='rick'
+          //className='main-img ui centered medium circular image'
+          className='main-img ui centered image'
+          src={ram}
+          alt='rick and morty'
         />
       </header>
     </section>
