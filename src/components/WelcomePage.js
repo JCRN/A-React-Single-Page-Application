@@ -5,7 +5,7 @@ export default function WelcomePage() {
   return (
     <section className='welcome-page'>
       <header>
-        <h3>A Colorful React Frontend for the Rick & Morty API</h3>
+        <h3>A React Frontend for the Rick & Morty API</h3>
         <img
           //className='main-img ui centered medium circular image'
           className='main-img ui centered image'
